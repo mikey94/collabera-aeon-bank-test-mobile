@@ -1,8 +1,10 @@
+const path = require("path");
+
 module.exports = {
   testRunner: {
     args: {
       $0: "jest",
-      config: "e2e/jest.config.js",
+      config: path.join(__dirname, "e2e", "jest.config.js"),
     },
     jest: {
       setupTimeout: 120000,
@@ -12,9 +14,9 @@ module.exports = {
     "ios.debug": {
       type: "ios.app",
       binaryPath:
-        "ios/build/Build/Products/Debug-iphonesimulator/aeontransactions.app",
+        "ios/build/Build/Products/Debug-iphonesimulator/collaberaaeonbanktestmobile.app",
       build:
-        "xcodebuild -workspace ios/aeontransactions.xcworkspace -scheme aeontransactions -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "xcodebuild -workspace ios/collaberaaeonbanktestmobile.xcworkspace -scheme collaberaaeonbanktestmobile -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
     },
     "android.debug": {
       type: "android.apk",
