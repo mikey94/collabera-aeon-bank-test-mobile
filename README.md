@@ -170,3 +170,12 @@ than completing the native share flow.
   devices.
 - E2E coverage for the native share sheet itself is intentionally out of
   scope (see Testing section above).
+  
+## Screenshots
+
+<img width="200" height="450" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-15 at 19 43 51" src="https://github.com/user-attachments/assets/286788cd-d5c0-48b1-bf7c-c2ea194885ea" />
+<img width="200" height="450" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-15 at 19 43 56" src="https://github.com/user-attachments/assets/a62b3052-00b2-48a9-a2b5-24c0a19c9833" />
+<img width="200" height="450" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-15 at 19 44 08" src="https://github.com/user-attachments/assets/0df02498-8e50-4551-b013-1579b4250e3d" />
+
+
+  
